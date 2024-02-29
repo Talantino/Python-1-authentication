@@ -3,11 +3,11 @@
 {% block content %}
     <h1>Register</h1>
     <hr>
+
     <form action="{% url 'register' %}" method="post">
         {{ form }}
-        {{ csrf_token }}
-        <button type="submit" class="btn btn-success">submit</button>
+        {% csrf_token %}
+    <button type="submit" class="btn btn-success">submit</button>
     </form>
-
-{% endblock content %}
+{% endblock %}
 
