@@ -32,7 +32,7 @@ git clone git@github.com:Talantino/Python-1-authentication.git
 ```
 2. Navigate to the project directory:
 ```bash
-cd django-authentication-project
+cd Python-1-authentication
 ```
 3. Install the required packages:
 ```bash
